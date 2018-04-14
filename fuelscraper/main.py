@@ -21,7 +21,7 @@ def main():
 
 def setup():
     """Query the endpoint and return JSON."""
-    api.query(suburb='Floreat')
+    api.query()
     json_ = api.get_json
     return json_
 
